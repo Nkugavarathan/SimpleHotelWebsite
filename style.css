@@ -1,12 +1,21 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 #navbar{
     display:flex ;
     justify-content: space-between;
-    background-color: rgb(133, 133, 133);
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+    line-height: 2.7em;
 }
 #navbar h1{
     margin-left: 15px;
@@ -17,6 +26,74 @@
 }
 .nav a{
     text-decoration: none;
-    color: white;
-    padding-left: 10px;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
 }
+.nav a:hover{
+    background-color: #444;
+    color: #f7c08a;
+}
+#showcase{
+    background: url('./picture/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+.showcasecontent h1{
+    font-size: 60px;
+    line-height: 1.3em;
+}
+.enjoytxt{
+    color: #f7c08a;
+}
+.para{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 19px;
+    line-height: 1.6em;
+}
+.btn{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #333;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 20px;
+}
+#hotelinfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.infoimg img {
+    width: 100%;
+    height: auto;
+  }
+  .infocontent{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+  }
+  .infoheading{
+    font-size: 50px;
+    margin-top: 16px;
+  }
+  .thehistory{
+    color: #f7c08a;
+  }
+  .infocontent p:nth-child(2){
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+  }
