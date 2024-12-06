@@ -166,3 +166,54 @@ html,body{
     outline: none;
     border-color: #f7c08a;
   }
+
+  /* About page design */
+
+  .aboutcontainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .aboutcontainer img{
+    width: 100%;
+    height: auto;
+  }
+  .aboutcontainer .abouttxt{
+    color: #f7c08a;
+  }
+  .aboutcontent{
+    padding: 20px;
+   
+  }
+  .aboutcontent p{ 
+   margin-top: 20px;
+   font-size: 20px;
+
+   
+  }
+
+  /* Feedback style */
+  .feedback{
+    background: url(./picture/test-bg.jpg);
+    padding: 20px;
+  }
+  .feedback h1{
+    text-align: center;
+    color: #ddd;
+    
+  }
+  .feedbackcontent{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f7c08a;
+    padding: 10px;
+    
+  }
+  .feedbackcontent img{
+    border-radius: 100%;
+    height: 100px;
+  }
+  .feedbackcontent p{
+    margin-left: 20px;
+  }
