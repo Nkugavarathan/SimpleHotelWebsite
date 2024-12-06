@@ -71,6 +71,10 @@ html,body{
     border: none;
     padding: 13px 20px;
 }
+.btn:hover{
+    background-color: #444;
+    color: #f7c08a;
+}
 #hotelinfo{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,4 +100,41 @@ html,body{
     font-size: 20px;
     line-height: 30px;
     padding: 10px;
+    margin-bottom: 10px;
+  }
+  .readmorebtn{
+    text-decoration: none;
+    color: #3a3939;
+    font-size: 18px;
+    background-color: #f1eded;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 20px;
+    
+  }
+  .features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .box {
+
+    text-align: center;
+    padding: 40px;
+    height: 200px;
+  }
+.box i{
+    margin-bottom: 10px;
+}
+  .meals{
+    background-color: #f7c08a;
+
+    
+  }
+  .footer{
+    text-align: center;
+    background-color: #333;
+    color: #f1eded;
+    padding: 15px;
+    font-size: 15px;
   }
