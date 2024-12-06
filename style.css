@@ -70,6 +70,7 @@ html,body{
     border-radius: 5px;
     border: none;
     padding: 13px 20px;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: #444;
@@ -137,4 +138,31 @@ html,body{
     color: #f1eded;
     padding: 15px;
     font-size: 15px;
+  }
+
+  /* Contact page style */
+  #contactform{
+    padding: 10px;
+  }
+  #contactform .contact{
+    color: #f7c08a;
+  }
+  #contactform .formgroup{
+    margin-bottom: 20px;
+  }
+  #contactform label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #contactform input,#contactform textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+  #contactform textarea{
+    height: 200px;
+  }
+  #contactform input:focus,#contactform textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
   }
